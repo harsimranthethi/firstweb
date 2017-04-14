@@ -16,14 +16,23 @@
            </ul>
       </div>
       <div id="content">
-           <h2>Home</h2>
-           <p>
-                This is my first webpage! I was able to code all the HTML and CSS in order to make it. Watch out world of web design here I come!
-           </p>
-           <p>
-                I can use my skills here to create websites for my buisness, my friends and family, my C.V, blog or articles. As well as any games or more experiment stuff (which is what the web is really about.)
-           </p>
-            <img src="wink.jpg"/>
+          <h2>Contact</h2>
+          <p>
+              You can contact me at my email: harsimran@gmail.com
+          </p>
+          <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Check where i live:</h1>
+          <img class="map hidden" id="blr" src="map.png">
+          <script>
+              function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+                  document.getElementById("blr").className = "map";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "deepskyblue";
+                  document.getElementById("blr").className = "map hidden";
+}
+          </script>
 
       </div>
       <div id="footer">

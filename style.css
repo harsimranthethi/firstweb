@@ -28,6 +28,10 @@ body{
     padding-bottom: 30px;
 }
 
+.map.hidden {
+    display: none
+}
+
 /*you can put your code all in one line like above */
 #page{ margin: 20px; }
 
